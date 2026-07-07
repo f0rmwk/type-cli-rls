@@ -3,8 +3,7 @@
 Public standalone binary releases for `type-cli`, a terminal typing game.
 
 The source repository is private. These downloads are provided under the
-PolyForm Noncommercial License 1.0.0. Commercial use requires permission from
-Will Kaufhold.
+PolyForm Noncommercial License 1.0.0. Commercial use requires permission.
 
 ## Install: macOS/Linux
 
