@@ -1,23 +1,25 @@
 class TypeCli < Formula
   desc "Terminal typing game"
   homepage "https://github.com/f0rmwk/type-cli-rls"
-  version "1.0.0"
+  version "1.0.1"
   license "PolyForm-Noncommercial-1.0.0"
+
+  depends_on "ca-certificates"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/f0rmwk/type-cli-rls/releases/download/v1.0.0/type-cli-macos-arm64.tar.gz"
-      sha256 "98efdf84df34ada595d491af0dddb899a171d23d9cbde5a0d90b2112a6b270a4"
+      url "https://github.com/f0rmwk/type-cli-rls/releases/download/v1.0.1/type-cli-macos-arm64.tar.gz"
+      sha256 "b8c7c040cd998c7d94fba2514a256ee202353297d449ba2d9d965cf48a2aa946"
     else
-      url "https://github.com/f0rmwk/type-cli-rls/releases/download/v1.0.0/type-cli-macos-x64.tar.gz"
-      sha256 "efae7fc5668299db2d677090534ff6006ff5622df38eb7f0557bd41cbcee6f06"
+      url "https://github.com/f0rmwk/type-cli-rls/releases/download/v1.0.1/type-cli-macos-x64.tar.gz"
+      sha256 "df4848a27756e48f165fa334d764a501fd13744e54e554cb9d9baac34e41060b"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/f0rmwk/type-cli-rls/releases/download/v1.0.0/type-cli-linux-x64.tar.gz"
-      sha256 "9500e16caa03cc8c848bb33eefc8d7febe50851ba27742b1887fe0114221ca28"
+      url "https://github.com/f0rmwk/type-cli-rls/releases/download/v1.0.1/type-cli-linux-x64.tar.gz"
+      sha256 "6654183f6792d6d839db9ece0fc18a1cab0e0cb08888eb29abcf7356f893937d"
     end
   end
 
@@ -26,6 +28,6 @@ class TypeCli < Formula
   end
 
   test do
-    assert_match "type 1.0.0", shell_output("#{bin}/type-cli --version")
+    assert_match "type 1.0.1", shell_output("#{bin}/type-cli --version")
   end
 end
