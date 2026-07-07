@@ -1,0 +1,3 @@
+tmp/
+releases/*/type-cli-*
+.DS_Store
