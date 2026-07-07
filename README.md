@@ -9,7 +9,7 @@ Will Kaufhold.
 ## Install: macOS/Linux
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/f0rmwk/type-cli-releases/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/f0rmwk/type-cli-rls/main/install.sh | sh
 ```
 
 Then run:
@@ -27,7 +27,7 @@ TYPE_CLI_INSTALL_DIR=/usr/local/bin sh install.sh
 ## Install: Homebrew
 
 ```bash
-brew tap f0rmwk/type-cli-releases
+brew tap f0rmwk/type-cli-rls https://github.com/f0rmwk/type-cli-rls
 brew install type-cli
 ```
 

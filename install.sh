@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -eu
 
-REPO="${TYPE_CLI_REPO:-f0rmwk/type-cli-releases}"
+REPO="${TYPE_CLI_REPO:-f0rmwk/type-cli-rls}"
 VERSION="${TYPE_CLI_VERSION:-latest}"
 INSTALL_DIR="${TYPE_CLI_INSTALL_DIR:-${HOME}/.local/bin}"
 TMP_DIR="$(mktemp -d 2>/dev/null || mktemp -d -t type-cli)"
