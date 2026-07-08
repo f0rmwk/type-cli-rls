@@ -30,6 +30,18 @@ brew tap f0rmwk/type-cli-rls https://github.com/f0rmwk/type-cli-rls
 brew install type-cli
 ```
 
+## Upgrade
+
+```bash
+brew update && brew upgrade type-cli
+```
+
+Direct installer users can rerun:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/f0rmwk/type-cli-rls/main/install.sh | sh
+```
+
 ## Windows
 
 Download `type-cli-windows-x64.zip` from the latest release, unzip it, and run

@@ -1,12 +1,12 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Terminal typing game",
   "homepage": "https://github.com/f0rmwk/type-cli-rls",
   "license": "PolyForm-Noncommercial-1.0.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/f0rmwk/type-cli-rls/releases/download/v1.0.1/type-cli-windows-x64.zip",
-      "hash": "915878197bba3b8834160b3320569d7abfab74dee2ca58812149e9974554352b"
+      "url": "https://github.com/f0rmwk/type-cli-rls/releases/download/v1.0.2/type-cli-windows-x64.zip",
+      "hash": "72477696e7237e57d8b96c065dda51e124014baa18a8f40c9f66beea103c5919"
     }
   },
   "bin": "type-cli.exe",
