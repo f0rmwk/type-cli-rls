@@ -63,8 +63,8 @@ verify_checksum() {
 validate_tar_archive() {
   archive="$1"
   if ! tar -tzf "$archive" | awk '
-    /^\\// { bad=1 }
-    /(^|\\/)\\.\\.(\\/|$)/ { bad=1 }
+    /^\// { bad=1 }
+    /(^|\/)\.\.(\/|$)/ { bad=1 }
     END { exit bad }
   '; then
     echo "error: archive contains unsafe paths" >&2
