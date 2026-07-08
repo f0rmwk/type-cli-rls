@@ -8,7 +8,7 @@ PolyForm Noncommercial License 1.0.0. Commercial use requires permission.
 ## Install: macOS/Linux
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/f0rmwk/type-cli-rls/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/f0rmwk/type-cli-rls/refs/heads/main/install.sh | sh
 ```
 
 Then run:
@@ -39,7 +39,7 @@ brew update && brew upgrade type-cli
 Direct installer users can rerun:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/f0rmwk/type-cli-rls/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/f0rmwk/type-cli-rls/refs/heads/main/install.sh | sh
 ```
 
 ## Windows
